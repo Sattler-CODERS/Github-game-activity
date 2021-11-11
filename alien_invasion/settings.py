@@ -21,7 +21,7 @@ class Settings:
         self.bullets_allowed = 5   # bullets allowed in the same time on screen
 
         # Alien settings.
-        self.alien_size = (80, 50)
+        self.alien_size = (80, 100)
         self.alien_drop_dist = 10
         self.alien_ship_dist_factor = 5
 
@@ -46,7 +46,7 @@ class Settings:
 
         self.set_default_alien_directions()
         self.ship_speed_factor = 400
-        self.bullet_speed_factor = 800
+        self.bullet_speed_factor = 900
         self.alien_speed_factor_x = 250
         self.alien_speed_factor_y = 100
         self.alien_density_factor_x = 3
