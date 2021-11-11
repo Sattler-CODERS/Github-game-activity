@@ -10,7 +10,7 @@ class Settings:
 
         # Ship settings
         self.ship_size = (100, 80)
-        self.ship_speed_factor = 2
+        self.ship_speed_factor = 1
         self.ship_left = 3
 
         # Bullet settings.
