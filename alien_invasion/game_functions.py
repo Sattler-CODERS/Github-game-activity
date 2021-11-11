@@ -185,8 +185,11 @@ def fire_bullet(ai_settings: Settings, game_items: GameItems):
 
     # Create a new bullet and add it to the bullets group.
     if len(game_items.bullets) < ai_settings.bullets_allowed:
-        new_bullet = Bullet(ai_settings, game_items.screen, game_items.ship)
-        game_items.bullets.add(new_bullet)
+        num_bullets = 10
+        sep = 15
+        for i in range(num_bullets):
+            new_bullet = Bullet(ai_settings, game_items.screen, game_items.ship, (1.0 - i/num_bullets) - 0.5, 1)
+            game_items.bullets.add(new_bullet)
 
 
 def create_fleet(ai_settings: Settings, game_items: GameItems):
