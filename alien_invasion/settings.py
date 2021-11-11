@@ -47,7 +47,7 @@ class Settings:
 
         self.set_default_alien_directions()
         self.ship_speed_factor = 400
-        self.bullet_speed_factor = 800
+        self.bullet_speed_factor = 10000
         self.alien_speed_factor_x = 250
         self.alien_speed_factor_y = 100
         self.alien_density_factor_x = 3
