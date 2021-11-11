@@ -15,13 +15,14 @@ class Settings:
 
         # Bullet settings.
         self.bullet_speed_factor = 3.5
-        self.bullet_width = 4
+        self.bullet_width = 200
         self.bullet_height = 20
         self.bullet_color = (255, 255, 255)
         self.bullets_allowed = 5   # bullets allowed in the same time on screen
 
         # Alien settings.
-        self.alien_size = (80, 50)
+        # self.alien_size = (80, 50)
+        self.alien_size = (80, 80)
         self.alien_drop_dist = 10
         self.alien_ship_dist_factor = 5
 
