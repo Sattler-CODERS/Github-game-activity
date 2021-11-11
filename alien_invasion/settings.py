@@ -1,7 +1,7 @@
 class Settings:
     """A class to store all settings for Alien Invasion."""
 
-    def __init__(self):
+    def __init__(self, image_name='images/world-night.jpg'):
         """Initialize the game settings."""
         # Screen settings
         self.screen_width = 1360
