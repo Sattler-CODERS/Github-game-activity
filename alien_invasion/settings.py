@@ -6,7 +6,7 @@ class Settings:
         # Screen settings
         self.screen_width = 1360
         self.screen_height = 768
-        self.bg_color = (10, 5, 50)
+        self.bg_color = (50, 5, 50)
 
         # Ship settings
         self.ship_size = (100, 80)
@@ -15,13 +15,14 @@ class Settings:
 
         # Bullet settings.
         self.bullet_speed_factor = 3.5
-        self.bullet_width = 4
+        self.bullet_width = 10 
         self.bullet_height = 20
         self.bullet_color = (255, 255, 255)
-        self.bullets_allowed = 5   # bullets allowed in the same time on screen
+        self.bullets_allowed = 500   # bullets allowed in the same time on screen
 
         # Alien settings.
-        self.alien_size = (80, 50)
+        # self.alien_size = (80, 50)
+        self.alien_size = (80, 80)
         self.alien_drop_dist = 10
         self.alien_ship_dist_factor = 5
 
@@ -46,7 +47,7 @@ class Settings:
 
         self.set_default_alien_directions()
         self.ship_speed_factor = 400
-        self.bullet_speed_factor = 800
+        self.bullet_speed_factor = 10000
         self.alien_speed_factor_x = 250
         self.alien_speed_factor_y = 100
         self.alien_density_factor_x = 3

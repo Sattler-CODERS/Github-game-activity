@@ -35,7 +35,7 @@ class GameItems:
         self.bullets = Group()
 
         # Initialize buttons.
-        self.play_button = Button(self.screen, "Play!")
+        self.play_button = Button(self.screen, "Time to Kill!")
 
         # TODO implement Restart and Cancel buttons.
         # self.restart_button = Button(self.screen, "Restart")
