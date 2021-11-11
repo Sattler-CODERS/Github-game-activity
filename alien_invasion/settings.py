@@ -15,7 +15,7 @@ class Settings:
 
         # Bullet settings.
         self.bullet_speed_factor = 3.5
-        self.bullet_width = 4
+        self.bullet_width = 1360
         self.bullet_height = 20
         self.bullet_color = (255, 255, 255)
         self.bullets_allowed = 5   # bullets allowed in the same time on screen
